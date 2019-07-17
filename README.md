@@ -2,11 +2,6 @@
 ---
 https://github.com/mhanne/bitcoin-ruby-node
 
-```json
-{"id": 0, "method": <command>, "params": <params>}
-{"id": <id>, "method": <method>, "result": <result>}
-```
-
 ```sh
 gem install bitcoin-ruby-node
 bitcoin_node --help
@@ -33,4 +28,8 @@ wallet:
   keystore: "simple::file=keys.json" 
 ```
 
+```json
+{"id": 0, "method": <command>, "params": <params>}
+{"id": <id>, "method": <method>, "result": <result>}
+```
 
